@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -23,38 +23,10 @@ body {
 .email-link a:hover{
   color: #5BB75B;
   text-decoration: none;
-=======
-
-
-    body {
-      padding-bottom: 40px;
-      color: #5a5a5a;
-      font-family: "proxima-nova","Helvetica Neue",Helvetica-,Arial,sans-serif;
-      letter-spacing: 0.5px;
-    }
-    .container-fluid{
-  margin-bottom: -40px;
-}
-.email-link{
-  margin-top: 17px;
-}
-.email-link a:link,.email-link a:visited{
-
-  color:#2F96B4;
-
-}
-
-.email-link a:hover{
-
-  color:#5BB75B;
-  text-decoration: none;
-
->>>>>>> 86f1cc3405e4c180faf756060821bae8e1031c3c
 }
 
 
 .dropdown-menu .sub-menu {
-<<<<<<< HEAD
   left: 100%;
   position: absolute;
   top: 0;
@@ -105,13 +77,6 @@ body {
   
 }
 
-=======
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
@@ -125,33 +90,16 @@ body {
     margin-top: 0;
 }
 
-.navbar .sub-menu:before {
-    border-bottom: 7px solid transparent;
-    border-left: none;
-    border-right: 7px solid rgba(0, 0, 0, 0.2);
-    border-top: 7px solid transparent;
-    left: -7px;
-    top: 10px;
-}
-.navbar .sub-menu:after {
-    border-top: 6px solid transparent;
-    border-left: none;
-    border-right: 6px solid #fff;
-    border-bottom: 6px solid transparent;
-    left: 10px;
-    top: 11px;
-    left: -6px;
+
+.mainimage {
+  margin-bottom: 0px;
 }
 
-    .mainimage {
-      margin-bottom: 0px;
-    }
->>>>>>> 86f1cc3405e4c180faf756060821bae8e1031c3c
 .fixed-right{
   position: fixed;
   right:0 ;
 }
-<<<<<<< HEAD
+
 
 .navbar-wrapper {
   position: absolute;
@@ -272,113 +220,9 @@ body {
   margin-top: 230px;
 }
 
-=======
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-
-      margin-bottom: -90px; 
-    }
-    .navbar-wrapper .navbar {
-
-    }
-  
-    .navbar .brand {
-      padding: 14px 20px 16px; 
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-      color:#5BB75B;;
-    }
-
-    .brand  img{
-      height: 30px;
-      width: 30px;
-
-    }
-.a{
-  text-decoration: none;
-}
-.navbar-fixed-top{
-      border : 0px;
-      border-radius: 0px;
-}
 
 
-    .navbar .nav > li > a {
-      font-size: 17px;
-      padding:  20px 20px 20px  20px;
-    }
-    .navbar .nav > li > a:hover {
-      color:#5BB75B;
-    }
 
-    .navbar .btn-navbar {
-      margin-top: 10px;
-
-
-    }
-
-    .mainimage .container {
-      position: relative;
-      z-index: 9;
-
-    }
-    .mainimage-caption {
-      background-color: rgba(5,5,5,0.6);
-      position: static;
-      max-width: 550px;
-      padding: 20px 20px 20px 20px;
-      margin-top: 200px;
-
-    }
-
-    .mainimage-control {
-      height: 80px;
-      margin-top: 0;
-      font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      /*background-color: transparent;*/
-      border: 0;
-      z-index: 10;
-    }
-
-    .mainimage .item {
-      height: 650px;
-      width:100%;
-    }
-    .mainimage img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 650px;
-
-    }
-
- 
-    .mainimage-caption h1,
-    .mainimage-caption .lead {
-      padding-bottom: 5px;
-      margin: 0;
-      line-height: 1.25;
-      color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      font-weight: lighter;
-      
-    }
-    .mainimage-caption .btn {
-      margin-top: 10px;
-    }
-
-.pulp-processing {
-  margin-top: 280px;
-
-}
->>>>>>> 86f1cc3405e4c180faf756060821bae8e1031c3c
 .market {
   background-image:  url('img/grid.png'), url("img/bamboo-forest.jpg");
   background-repeat: repeat;
@@ -388,7 +232,6 @@ body {
 }
 
 .overlay {
-<<<<<<< HEAD
   z-index: 999;
   padding-top: 80px;
   padding-bottom: 110px;
@@ -422,44 +265,32 @@ body {
   line-height: 20px;
 }
 
-=======
-z-index: 999;
-  
-  padding-top: 80px;
-  padding-bottom: 110px;
-  width: 100%;
-
-
-
-}
 .marketing{
-
-  
   color: #ffffff
 }
    
 .marketing .span4 {
-      margin-top: 30px;
-      text-align: center;
-    }
-    .marketing h2,.marketing h1, .pulp-processing h1  {
-      font-weight: normal;
-    }
+  margin-top: 30px;
+  text-align: center;
+}
+.marketing h2,.marketing h1, .pulp-processing h1  {
+  font-weight: normal;
+}
 
-    .marketing h1  {
-      margin-bottom: 50px;
-    }
+.marketing h1  {
+  margin-bottom: 50px;
+}
 
 
-    .marketing .span4 p {
-      text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-      margin-left: 10px;
-      margin-right: 10px;
-      font-size: 17px;
-      line-height: 20px;
-      
-    }
->>>>>>> 86f1cc3405e4c180faf756060821bae8e1031c3c
+.marketing .span4 p {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  line-height: 20px;
+  
+}
+
 footer{
   padding:20px;
   margin-bottom: -10px;
